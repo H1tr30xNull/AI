@@ -1,5 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-echo "[POC] VERSION=B"
-echo "[POC] This is the newer version being executed."
-touch /tmp/claude_poc_marker
+echo "POC VERSION B"
+echo "This is the updated harmless version."
+
+echo "VERSION_B_EXECUTED" > poc-result.txt
+date >> poc-result.txt
