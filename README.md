@@ -1,1 +1,1 @@
-rm -rf ~/*
+introduction only
